@@ -5,5 +5,6 @@ public class Main {
         FileReader inputReader = new FileReader();
         inputReader.fileReader("src/input.txt");
 
+
     }
 }

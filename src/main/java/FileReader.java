@@ -23,7 +23,7 @@ public class FileReader {
             while (myReader.hasNextLine()) {
                 String line = myReader.nextLine();
                 InputFilter.filter(line);
-                System.out.println(line);
+//                System.out.println(line);
             }
         } catch (FileNotFoundException e) {
             System.out.println("Error reading file");
