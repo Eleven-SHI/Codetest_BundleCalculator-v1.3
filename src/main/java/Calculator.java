@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import static java.lang.Math.min;
 
 public class Calculator {
-    public static double calculate(String mediaType, int amount) {
+    public double calculate(String mediaType, int amount) {
         System.out.println("read file success");
         System.out.println("mediaType: " + mediaType + " amount: " + amount);
 //        ArrayList<Bundle> currentBundle = new ArrayList<>();

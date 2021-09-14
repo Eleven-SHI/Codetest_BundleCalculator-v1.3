@@ -22,7 +22,8 @@ public class FileReader {
         try (Scanner myReader = new Scanner(myFile)) {
             while (myReader.hasNextLine()) {
                 String line = myReader.nextLine();
-                InputFilter.filter(line);
+                InputFilter inputFilter = new InputFilter();
+                inputFilter.filter(line);
 //                System.out.println(line);
             }
         } catch (FileNotFoundException e) {
