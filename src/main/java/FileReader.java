@@ -1,8 +1,9 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+
 public class FileReader {
-    public void fileReader(String path){
+    public void fileReader(String path) {
 //        File myObj = new File("input.txt");
 //        try {
 //            Scanner myReader = new Scanner(myObj);

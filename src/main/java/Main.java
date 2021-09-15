@@ -5,6 +5,14 @@ public class Main {
         FileReader inputReader = new FileReader();
         inputReader.fileReader("src/input.txt");
 
-
+        //I try to make the main.class make sense. Not complete.
+//        InputFilter inputFilter = new InputFilter();
+//        int amount = inputFilter.getAmount();
+//        String code = inputFilter.getCode();
+//        double price;
+//        Calculator cal = new Calculator();
+//        price = cal.calculate(code,amount);
+//        Printer printer = new Printer();
+//        printer.printer(code,price);
     }
 }
