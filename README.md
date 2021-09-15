@@ -39,6 +39,8 @@ A successfully passing test(s) that demonstrates the following output: (The form
 ```
 
 ## How to work
+```
 Write items number and media code each line to input.txt file.
-Run Main.java
-Check result
+Run Main.java.
+Check result.
+```
